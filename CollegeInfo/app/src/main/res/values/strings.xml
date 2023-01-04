@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">final gehu app</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/fbold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/flight</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/fregular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="videos">videos</string>
+    <string name="ebooks">KIT ERP</string>
+    <string name="theme">theme</string>
+    <string name="website">website</string>
+    <string name="rate_us">rate_us</string>
+    <string name="developer">developer</string>
+    <string name="home">Home</string>
+    <string name="notice">Notice</string>
+    <string name="faculities">Faculties</string>
+    <string name="gallary">Gallery</string>
+    <string name="about">About</string>
+
+    <string name="graphic_era_hill_university">Kanpur Institute Of Technology</string>
+    <string name="dpartments">Department Of Engineering</string>
+    <string name="mechanical_engineering">Mechanical Engineering</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="civil_engineering">Civil Engineering</string>
+    <string name="graphic_era_hill_university_dehradun_campus_is_located_in_the_cantonment_area_along_the_rajaji_national_park_against_the_panoramic_view_of_shivalik_hills_the_university_offers_perfect_ambience_for_all_academic_pursuits_health_growth_and_widening_of_mental_horizons_gehu_dehradun_campus_is_fully_equipped_with_state_of_the_art_computer_centres_and_labs_spacious_and_temperature_regulated_class_rooms_lecture_theatres_and_seminar_halls_accommodation_and_medical_facilities_and_our_very_own_radio_station_the_dehradun_campus_of_graphic_era_hill_university_has_been_acclaimed_and_honored_at_various_events_of_national_and_international_prominence"> Indus Technical Education Society (ITES), a society promoted by a team of visionary &amp; motivated IIT alumni (Shri P.K. Jain, Shri Vipul Jain, Shri Anil Kumar Agarwal &amp; Mrs. Neena Verma) established an institute Kanpur Institute of Technology (popularly known as KIT) in 2004. KIT runs courses B.Tech, M.Tech MBA, MCA, BFA, BFAD &amp; Polytechnic. KIT is an ISO 9001: 2015 certified institute and approved by AICTE, New Delhi &amp; Affiliated to AKTU &amp; BTE Lucknow.ITES also established an institute Kanpur Institute of Technology &amp; Pharmacy (KITP) in 2009. KITP runs courses B.Pharm, M.Pharm &amp; D.Pharm and is approved by PCI, New Delhi &amp; Affiliated to AKTU &amp; BTE Lucknow.Another feather is added in 2019, when ITES opened its third college Kanpur Institute of Higher Education (KIHE). KIHE runs courses BBA, BCA &amp; B.Sc. Institute is approved U. P. Government, Lucknow and affiliated to CSJMU, Kanpur. All the colleges are very easily accessible and located at prime location on Kanpur – Prayagraj National Highway, 6 KM from Ramadevi round over at Rooma, Kanpur.
+
+ </string>
+    <string name="clement_town_dehradun">Rooma, Kanpur</string>
+    <string name="graphic_era_hill_universitys">Kanpur Institute Of Technology</string>
+    <string name="computer_science_engineering">Computer Science Engineering</string>
+    <string name="electrical_electronics_engineering">Electrical/Electronics Engineering</string>
+    <string name="contactus">Contact us-01352645565,01352645996</string>
+    <string name="admissions_gehu_ac_in_enquery_gehu_ac_in">admissions@kit.ac.in , enquery@kit.ac.in</string>
+    <string name="graphic_era_hill_universityk">Kanpur Institute Of Technology</string>
+    <string-array name="theme">
+
+        <item>System Default</item>
+        <item>Dark </item>
+        <item>Light</item>
+    </string-array>
+
+    <string name="title_activity_pdf_viewer">PdfViewerActivity</string>
+    <string name="about_college" />
+</resources>

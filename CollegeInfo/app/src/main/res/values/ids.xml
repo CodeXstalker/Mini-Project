@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="NoticeRecycler" type="id" />
+    <item name="NoticeRecycle" type="id" />
+    <item name="navigation_share" type="id" />
+    <item name="br_icon" type="id" />
+    <item name="br_title" type="id" />
+    <item name="br_titles" type="id" />
+    <item name="br_desc" type="id" />
+</resources>

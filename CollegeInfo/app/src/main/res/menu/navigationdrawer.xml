@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_video"
+        android:title="@string/videos"
+        android:icon="@drawable/ic_video"/>
+
+    <item android:id="@+id/navigation_erp"
+        android:title="@string/ebooks"
+        android:icon="@drawable/ic_ebook"/>
+
+    <item android:id="@+id/navigation_theme"
+        android:title="@string/theme"
+        android:icon="@drawable/ic_theme"/>
+
+
+    <item android:id="@+id/navigation_review"
+        android:title="@string/rate_us"
+        android:icon="@drawable/ic_review"/>
+
+    <item android:id="@+id/navigation_developer"
+        android:title="@string/developer"
+        android:icon="@drawable/ic_developer"/>
+
+    <item android:id="@+id/navigation_website"
+        android:title="@string/website"
+        android:icon="@drawable/ic_website"/>
+
+
+
+
+</menu>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.home.homeFragment">
+
+   <ScrollView
+
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:ignore="UselessParent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_marginTop="-60dp"
+               android:layout_height="250dp"
+               android:src="@drawable/logo"
+               android:scaleType="center"
+               />
+           <com.denzcoskun.imageslider.ImageSlider
+               android:layout_width="wrap_content"
+               android:layout_height="250dp"
+               app:iss_period="1000"
+               app:iss_auto_cycle="true"
+               android:layout_marginTop="-60dp"
+               app:iss_delay="1000"
+               app:iss_corner_radius="10"
+               app:iss_title_background="@drawable/ds"
+               android:id="@+id/slider"/>
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/graphic_era_hill_university"
+               android:layout_marginTop="36dp"
+               android:textStyle="bold"
+               android:layout_marginStart="76dp"
+               android:gravity="center_horizontal"
+               android:textSize="@dimen/title_size"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginHorizontal="@dimen/text_margin"
+               android:layout_marginTop="@dimen/text_margin"
+               android:fontFamily="@string/light"
+               android:text="@string/graphic_era_hill_university_dehradun_campus_is_located_in_the_cantonment_area_along_the_rajaji_national_park_against_the_panoramic_view_of_shivalik_hills_the_university_offers_perfect_ambience_for_all_academic_pursuits_health_growth_and_widening_of_mental_horizons_gehu_dehradun_campus_is_fully_equipped_with_state_of_the_art_computer_centres_and_labs_spacious_and_temperature_regulated_class_rooms_lecture_theatres_and_seminar_halls_accommodation_and_medical_facilities_and_our_very_own_radio_station_the_dehradun_campus_of_graphic_era_hill_university_has_been_acclaimed_and_honored_at_various_events_of_national_and_international_prominence"
+               android:textSize="@dimen/text_size" />
+
+
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="36dp"
+               android:background="@color/textColor">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="36dp"
+                   android:background="@color/textColor"
+                   android:orientation="vertical"
+                   tools:ignore="UselessParent">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_horizontal"
+                       android:fontFamily="@string/bold"
+                       android:gravity="center_horizontal"
+                       android:text="@string/dpartments"
+                       android:textColor="@color/DarkColor"
+                       android:textSize="@dimen/title_size"
+                       android:textStyle="bold" />
+
+                   <com.google.android.material.card.MaterialCardView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="16dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:background="@color/textColor"
+                           android:orientation="vertical">
+
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:fontFamily="@string/light"
+                               android:textColor="@color/whity"
+                               android:text="@string/computer_science_engineering"
+                               android:textSize="@dimen/text_size"
+                               android:textStyle="bold" />
+
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:background="@color/grey2" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:textColor="@color/whity"
+                               android:fontFamily="@string/light"
+                               android:text="@string/civil_engineering"
+                               android:textSize="@dimen/text_size"
+                               android:textStyle="bold" />
+
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:background="@color/grey2" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:textColor="@color/whity"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:fontFamily="@string/light"
+                               android:text="@string/mechanical_engineering"
+                               android:textSize="@dimen/text_size"
+                               android:textStyle="bold" />
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:background="@color/grey2" />
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:textColor="@color/whity"
+                               android:fontFamily="@string/light"
+                               android:text="@string/electrical_electronics_engineering"
+                               android:textSize="@dimen/text_size"
+                               android:textStyle="bold" />
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:background="@color/grey2" />
+
+
+                       </LinearLayout>
+
+
+                   </com.google.android.material.card.MaterialCardView>
+
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:background="@color/purple_200"
+               android:padding="@dimen/text_margin">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/contact_us"
+                   android:layout_marginTop="10dp"
+                   android:textStyle="bold"
+                  android:layout_gravity="center"
+                   android:gravity="center_horizontal"
+                   android:textSize="@dimen/title_size"/>
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:fontFamily="@string/light"
+                   android:text="@string/graphic_era_hill_universitys"
+                   android:textColor="@color/whity"
+                   android:textStyle="bold"
+                   android:textSize="@dimen/text_size" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:layout_marginTop="3dp"
+                   android:fontFamily="@string/light"
+                   android:textColor="@color/whity"
+                   android:textStyle="bold"
+                   android:text="@string/clement_town_dehradun"
+                   android:textSize="@dimen/text_size" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:layout_marginTop="3dp"
+
+                   android:textColor="@color/whity"
+
+                   android:text="@string/contactus"
+                   android:textSize="@dimen/text_size" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:layout_marginTop="3dp"
+
+                   android:textColor="@color/whity"
+
+                   android:text="@string/admissions_gehu_ac_in_enquery_gehu_ac_in"
+                   android:textSize="@dimen/text_size" />
+
+
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="250dp"
+                   android:src="@drawable/map"
+                   android:layout_marginTop="5dp"
+                   android:scaleType="centerCrop"
+                   android:id="@+id/mapid"
+                  />
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginTop="50dp"
+                   android:background="@color/grey2" />
+
+           </LinearLayout>
+       </LinearLayout>
+   </ScrollView>
+
+</FrameLayout>
