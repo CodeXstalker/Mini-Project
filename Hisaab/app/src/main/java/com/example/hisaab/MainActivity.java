@@ -3,13 +3,19 @@ package com.example.hisaab;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
+
+import org.mozilla.javascript.Context;
+import org.mozilla.javascript.Scriptable;
+
 
 import com.google.android.material.button.MaterialButton;
 
 public class MainActivity extends AppCompatActivity {
     private TextView resultTv, solutionTv;
-    private MaterialButton buttonC, buttonOpen,buttonClose, buttonDivide, button7, button8, button9, button1,
+    private MaterialButton buttonC, buttonOpen,buttonClose, buttonDivide, button7, button8, button9,
+            button1,
             button2, button3, button4, button5,button6,button0, buttonDot,buttonAC, buttonEqual, buttonMinus,
             buttonPlus, buttonMul;
 
@@ -41,5 +47,275 @@ public class MainActivity extends AppCompatActivity {
         buttonPlus= findViewById(R.id.button_add);
         buttonMul= findViewById(R.id.button_mul);
 
+
+
+
+        buttonC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = buttonC.getText().toString();
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+
+            }
+        });
+
+        buttonOpen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = buttonOpen.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+
+            }
+        });
+
+        buttonClose.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = buttonClose.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+
+            }
+        });
+
+        buttonDivide.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = buttonDivide.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+
+            }
+        });
+
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = button7.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        button8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = button8.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        button9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = button9.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = button4.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = button5.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = button6.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = button2.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = button2.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = button3.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        button0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = button0.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        buttonDot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = buttonDot.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+
+        buttonAC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = buttonAC.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        buttonMul.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = buttonMul.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+
+        buttonPlus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = buttonPlus.getText().toString();
+
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        buttonMinus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = buttonMinus.getText().toString();
+                String data = solutionTv.getText().toString();
+                data = data + s;
+                solutionTv.setText(data);
+
+            }
+        });
+
+        buttonAC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                solutionTv.setText("0");
+                resultTv.setText("0");
+            }
+        });
+
+        buttonEqual.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String ans = solutionTv.getText().toString();
+                resultTv.setText(getResult(ans));
+            }
+        });
+
+
     }
+
+
+
+    String getResult(String ans){
+        try {
+            Context context = Context.enter();
+            context.setOptimizationLevel(-1);
+            Scriptable scriptable = context.initStandardObjects();
+            String FinalResult = context.evaluateString(scriptable,ans,"Javascript",1,null).toString();
+            return FinalResult;
+        }catch (Exception e){
+            return "ERR";
+        }
+
+    }
+
+
 }
